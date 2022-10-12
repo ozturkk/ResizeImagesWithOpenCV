@@ -8,8 +8,8 @@ import glob
 import os
 
 
-mypath='./segmentasyon_haritası/'
-os.mkdir("ResizedSegmentasyon_haritasi")
+mypath='./segmentasyon_haritası/'#boyutlaandıracğımız dosyanın uzantısı
+os.mkdir("ResizedSegmentasyon_haritasi")#boyutlandırdığımız fotografların kaydedileceği yol
 folderLen=len(mypath)
 
 for img in glob.glob(mypath+"/*.jpg"):
